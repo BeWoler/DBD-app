@@ -19,11 +19,13 @@ export function generateStaticParams() {
 
 const LocaleLayout = async ({
   children,
-  params: { locale },
-}: Readonly<{
+  params,
+}: {
   children: ReactNode;
   params: { locale: string };
-}>) => {
+}) => {
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as TLocales)) {
     notFound();
   }
@@ -32,5 +34,4 @@ const LocaleLayout = async ({
 
   return <BaseLayout locale={locale}>{children}</BaseLayout>;
 };
-
 export default LocaleLayout;

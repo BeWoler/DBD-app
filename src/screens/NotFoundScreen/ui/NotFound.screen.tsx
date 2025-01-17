@@ -7,7 +7,10 @@ const NotFoundScreen = () => {
   const t = useTranslations('NotFound');
 
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-4 text-white">
+    <div
+      className="flex flex-col items-center justify-center gap-4 text-white"
+      style={{ height: '100vh' }}
+    >
       <Heading level={1}>{t('title')}</Heading>
       <Text type="2xl">{t('description')}</Text>
       <div>
