@@ -22,7 +22,7 @@ const LocaleLayout = async ({
   params,
 }: {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) => {
   const { locale } = await params;
 
@@ -34,4 +34,5 @@ const LocaleLayout = async ({
 
   return <BaseLayout locale={locale}>{children}</BaseLayout>;
 };
+
 export default LocaleLayout;
