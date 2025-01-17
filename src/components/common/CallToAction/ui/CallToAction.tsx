@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 
 import { Heading, Text } from '@/components/shared';
 import { SubscribeForm } from '@/components/widgets';
-import { postSubscription } from '@/services/strapi/Subscribe/repository/subscribe.repository';
+import { postSubscription } from '@/services/strapi/subscribe/subscribe.repository';
 
 import type { TSubscribeFormData } from '@/components/widgets/SubscribeForm/lib/subscribeForm.type';
 
