@@ -5,7 +5,14 @@
     "backToHome": "На главную"
   },
   "Header": {
-    "title": "Dead By Daylight"
+    "title": "Dead By Daylight",
+    "officialSite": "Официальный сайт",
+    "links": {
+      "home": "Главная",
+      "randomizer": "Рандомайзер",
+      "builds": "Билды",
+      "tierLists": "Тир листы"
+    }
   },
   "Footer": {
     "title": "Dead By Daylight",
@@ -67,5 +74,9 @@
   "CallToAction": {
     "title": "Подпишитесь, чтобы получать обновления!",
     "description": "Будьте в курсе всех новых обновлений и событий, подписавшись на нашу рассылку."
+  },
+  "LocaleSwitcher": {
+    "label": "Привет",
+    "locale": "{locale, select, en {EN} ru {RU} other {Unknown}}"
   }
 }
