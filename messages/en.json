@@ -5,7 +5,14 @@
     "backToHome": "Back to Home"
   },
   "Header": {
-    "title": "Dead By Daylight"
+    "title": "Dead By Daylight",
+    "officialSite": "Official site",
+    "links": {
+      "home": "Home",
+      "randomizer": "Randomizer",
+      "builds": "Builds",
+      "tierLists": "Tier Lists"
+    }
   },
   "Footer": {
     "title": "Dead By Daylight",
@@ -67,5 +74,9 @@
   "CallToAction": {
     "title": "Subscribe to get updates!",
     "description": "Keep up to date with all new updates and events by subscribing to our newsletter."
+  },
+  "LocaleSwitcher": {
+    "label": "Hello",
+    "locale": "{locale, select, en {EN} ru {RU} other {Unknown}}"
   }
 }

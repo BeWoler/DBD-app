@@ -65,7 +65,7 @@ export const SubscribeForm = ({
         backgroundColor="red"
         disabled={isSubmitting}
         onClick={handleSubmit(formSubmit)}
-        className="max-h-[2.5rem]"
+        className="max-h-[2.5rem] hover:bg-blue-secondary hover:bg-opacity-90"
       >
         {success ? (
           <Text type="lg">{t('success')}</Text>

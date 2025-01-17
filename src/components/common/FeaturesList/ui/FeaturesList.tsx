@@ -11,7 +11,7 @@ export const FeaturesList = ({ features, title }: TFeaturesListProps) => {
   const t = useTranslations('Features');
 
   return (
-    <PageComponent.Animated.Div className="flex flex-col gap-5">
+    <PageComponent.Animated.Div threshold={0} className="flex flex-col gap-5">
       <Heading level={2}>{title}</Heading>
       <div className="flex gap-5 max-lg:flex-col">
         {features.map((feature, i) => (
