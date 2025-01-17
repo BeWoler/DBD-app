@@ -1,0 +1,71 @@
+{
+  "NotFound": {
+    "title": "404",
+    "description": "The page is lost in the fog...",
+    "backToHome": "Back to Home"
+  },
+  "Header": {
+    "title": "Dead By Daylight"
+  },
+  "Footer": {
+    "title": "Dead By Daylight",
+    "officialSite": "Official site",
+    "links": {
+      "home": "Home",
+      "randomizer": "Randomizer",
+      "builds": "Builds",
+      "tierLists": "Tier Lists"
+    }
+  },
+  "HomePage": {
+    "heroBlock": {
+      "title": "Welcome to the fog",
+      "description": "Create builds, follow updates, share strategies and find inspiration for new matches!"
+    },
+    "aboutApp": {
+      "title": "About this app",
+      "description": "This is your one-stop shop for Dead by Daylight. We've collected everything players need: from generating builds to creating playlists. Everything to make the game even more interesting! Join the community, follow game updates and find inspiration for new matches. Whether you play as survivors or assassins, you'll find useful tools for both sides!"
+    },
+    "features": {
+      "title": "Key features"
+    }
+  },
+  "Features": {
+    "goTo": "Go to Feature",
+    "soon": "Soon",
+    "randomizer": {
+      "title": "Randomizer",
+      "description": "Generate random builds for your matches. An advanced randomizer for Dead by Daylight, offering full customization of the random selection process:\n\n• You can randomize characters (killers and survivors).\n• Perks, addons, and items.\n• Specific characters (e.g., only survivors or certain killers).\n\nThe randomizer adds an element of surprise to your gameplay, creating unique and fun combinations for new experiences."
+    },
+    "buildCreator": {
+      "title": "Build Creator",
+      "description": "Create and save unique builds for survivors and killers. Explore and create unique builds for Dead by Daylight:\n\n• Browse popular builds crafted by other players.\n• Create your own unique builds by combining perks, addons, and items.\n• Share your builds with the community to inspire other players.\n\nThis is the perfect place to discover winning strategies or showcase your creative vision."
+    },
+    "tierLists": {
+      "title": "Tier Lists",
+      "description": "Create and share character tier lists. Compare characters and strategies using convenient tier lists:\n\n• Explore tier lists created by the community to find out which characters best suit your playstyle.\n• Vote on and discuss existing tier lists to share your opinion.\n• Create your own tier lists and share them to help other players.\n\nTier lists are a great tool for analysis, inspiration, and community interaction."
+    }
+  },
+  "Roadmap": {
+    "title": "Roadmap",
+    "launch": "Launch of the randomizer and the first stable release",
+    "auth": "Introduction of user account creation",
+    "builds": "Build library: explore and create custom setups",
+    "tierLists": "Tier list maker: view and design your own rankings",
+    "wiki": "Mini wiki: deep dive into killers and survivors",
+    "blog": "Dedicated blog page for game updates and news",
+    "comments": "Interactive comment system for discussions"
+  },
+  "Subscribe": {
+    "required": "Email is required",
+    "message": "Please enter a valid email address",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "sending": "Sending...",
+    "success": "Success!"
+  },
+  "CallToAction": {
+    "title": "Subscribe to get updates!",
+    "description": "Keep up to date with all new updates and events by subscribing to our newsletter."
+  }
+}

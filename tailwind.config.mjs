@@ -1,4 +1,5 @@
 import tailwindCssVariables from '@mertasan/tailwindcss-variables';
+import colorVariable from '@mertasan/tailwindcss-variables/colorVariable';
 
 const config = {
   content: [
@@ -39,9 +40,35 @@ const config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'dashed-line': 'linear-gradient(to right, #4a4a4a 20%, transparent 20%)',
+      },
+      backgroundSize: {
+        'dashed-line': '1.25rem 100%',
+      },
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
+        ...{
+          'dark-primary': colorVariable('var(--colors-darkPrimary)'),
+          'dark-secondary': colorVariable('var(--colors-darkSecondary)'),
+          'red-primary': colorVariable('var(--colors-redPrimary)'),
+          'red-secondary': colorVariable('var(--colors-redSecondary)'),
+          'blue-primary': colorVariable('var(--colors-bluePrimary)'),
+          'blue-secondary': colorVariable('var(--colors-blueSecondary)'),
+          'gray-primary': colorVariable('var(--colors-grayPrimary)'),
+          'gray-secondary': colorVariable('var(--colors-graySecondary)'),
+        },
+      },
+      backgroundColor: {
+        ...{
+          'dark-primary': colorVariable('var(--colors-darkPrimary)'),
+          'dark-secondary': colorVariable('var(--colors-darkSecondary)'),
+          'red-primary': colorVariable('var(--colors-redPrimary)'),
+          'red-secondary': colorVariable('var(--colors-redSecondary)'),
+          'blue-primary': colorVariable('var(--colors-bluePrimary)'),
+          'blue-secondary': colorVariable('var(--colors-blueSecondary)'),
+          'gray-primary': colorVariable('var(--colors-grayPrimary)'),
+          'gray-secondary': colorVariable('var(--colors-graySecondary)'),
+        },
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
@@ -65,6 +92,20 @@ const config = {
         '7xl-custom': ['4.5rem', { lineHeight: '4.5rem' }],
         '8xl-custom': ['6rem', { lineHeight: '6rem' }],
         '9xl-custom': ['8rem', { lineHeight: '8rem' }],
+      },
+      variables: {
+        DEFAULT: {
+          colors: {
+            darkPrimary: '#0F0F0F',
+            darkSecondary: '#1C1C1C',
+            redPrimary: '#B22222',
+            redSecondary: '#FF4D4D',
+            bluePrimary: '#2C3E50',
+            blueSecondary: '#4A90E2',
+            grayPrimary: '#8C8C8C',
+            graySecondary: '#D3D3D3',
+          },
+        },
       },
     },
   },

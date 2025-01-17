@@ -38,7 +38,9 @@
     "prettier.config.mjs",
     "postcss.config.mjs",
     "next.config.mjs",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "src/config/types",
+    "next-i18next.config.js"
   ],
   "exclude": [
     "node_modules"

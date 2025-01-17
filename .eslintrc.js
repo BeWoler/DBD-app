@@ -71,6 +71,7 @@ module.exports = {
     'prefer-arrow-callback': 'off',
     'import/prefer-default-export': 'off',
     'no-console': 'off',
+    'react/no-array-index-key': 'off',
     'no-empty-function': 'off',
     'react/jsx-props-no-spreading': ['off'],
     'jsx-a11y/no-static-element-interactions': 'off',

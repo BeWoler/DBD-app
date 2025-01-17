@@ -21,5 +21,6 @@ export type TTextProps = {
   type: TTextType;
   weight?: TTextWeight;
   clamp?: TTextClamp;
+  userSelect?: boolean;
   className?: string;
 };
